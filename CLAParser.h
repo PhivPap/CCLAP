@@ -12,4 +12,6 @@ public:
 	CLAParser(void);
 	~CLAParser(void);
 	void Parse(const char**, int);
+	void AddBoundedArg(const char*);
+	void AddFlagArg(const char*);
 };
