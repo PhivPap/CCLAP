@@ -1,13 +1,13 @@
-#include "CLArgParser.h"
+#include "CLAParser.h"
 
-CLArgParser::CLArgParser(void) {
-
-}
-
-CLArgParser::~CLArgParser(void) {
+CLAParser::CLAParser(void) {
 
 }
 
-void CLArgParser::Parse(const char* argv[], int argc) {
+CLAParser::~CLAParser(void) {
+
+}
+
+void CLAParser::Parse(const char* argv[], int argc) {
 
 }
